@@ -1,0 +1,11 @@
+/Users/apple/Documents/Unity Projects Repsos(4.7 version)/Text 101/Temp/bin/Debug/UnityEngine.dll
+/Users/apple/Documents/Unity Projects Repsos(4.7 version)/Text 101/Temp/bin/Debug/UnityEditor.dll
+/Users/apple/Documents/Unity Projects Repsos(4.7 version)/Text 101/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/apple/Documents/Unity Projects Repsos(4.7 version)/Text 101/Temp/bin/Debug/Mono.Cecil.dll
+/Users/apple/Documents/Unity Projects Repsos(4.7 version)/Text 101/Temp/bin/Debug/nunit.framework.dll
+/Users/apple/Documents/Unity Projects Repsos(4.7 version)/Text 101/Temp/bin/Debug/Unity.DataContract.dll
+/Users/apple/Documents/Unity Projects Repsos(4.7 version)/Text 101/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/apple/Documents/Unity Projects Repsos(4.7 version)/Text 101/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/apple/Documents/Unity Projects Repsos(4.7 version)/Text 101/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/apple/Documents/Unity Projects Repsos(4.7 version)/Text 101/obj/Debug/Assembly-CSharp.dll
+/Users/apple/Documents/Unity Projects Repsos(4.7 version)/Text 101/obj/Debug/Assembly-CSharp.dll.mdb
