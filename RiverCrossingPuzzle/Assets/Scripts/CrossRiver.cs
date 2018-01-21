@@ -5,7 +5,7 @@ using System.Collections;
 public class CrossRiver : MonoBehaviour {
 	public Text text;
 	// Use this for initialization
-	private enum MovesList{ Goat, Wolf, Cabbage, Empty, textDisplay, firstLevel,firstLevel_2, secondLevel,thirdLevelWithCabbage, thirdLevelWithWolf,fourthLevelWithCabbage,fourthLevelWithGoat,fourthLevelWithWolf, gameOver };
+	private enum MovesList{GameWin, Goat, Wolf, Cabbage, Empty, textDisplay, firstLevel,firstLevel_2, secondLevel,thirdLevelWithCabbage, thirdLevelWithWolf,fourthLevelWithCabbage,fourthLevelWithGoat,fourthLevelWithWolf, gameOver };
 	 private MovesList moves;
 	void Start () {
 		moves=MovesList.textDisplay;
@@ -23,7 +23,9 @@ public class CrossRiver : MonoBehaviour {
 		else if (moves==MovesList.secondLevel)	{ second_level();}
 		else if (moves==MovesList.thirdLevelWithCabbage)	{ third_level_cabbage();}
 		else if (moves==MovesList.thirdLevelWithWolf)	{ third_level_wolf();}
+		else if (moves==MovesList.fourthLevelWithGoat || moves==MovesList.fourthLevelWithWolf || moves==MovesList.fourthLevelWithCabbage)	{ fifthMove();}
 		else if(moves==MovesList.gameOver)		{ game_over();}
+		else if(moves==MovesList.GameWin)		{ GameWin();}
 
 	}
 
@@ -101,4 +103,15 @@ public class CrossRiver : MonoBehaviour {
 
 	}
 
+	void fifthMove(){
+		text.text="You are at point where you do final Exchange. And one more turn to this end for the final properties and you are done with game \n\n"+
+					"Press E for the Exchange";
+		if(Input.GetKeyDown(KeyCode.E))		{moves=MovesList.GameWin;}
+	}
+
+	void GameWin(){
+		text.text="Congratulations!! You won the game.\n\n"+
+					"Press P to play again";
+		if(Input.GetKeyDown(KeyCode.P))		{moves=MovesList.gameOver;}
+	}
 }
